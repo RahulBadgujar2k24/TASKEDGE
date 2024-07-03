@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EDGE196Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Edge196.TestScript.TC04_InvestNow"/>
+      <class name="com.Edge196.TestScript.TC01_EDGE_196_Validdata"/>
+      <class name="com.Edge196.TestScript.TC02_EDGE_196_Invaliddata"/>
+      <class name="Edge196.Edge196.AppTest"/>
+      <class name="com.Edge196.TestScript.TC03_ContactUsSubmit_ValidInput"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- EDGE196Suite -->

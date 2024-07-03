@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EDGE196Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Edge196.TestScript.TC03_ContactUsSubmit_ValidInput">
+        <methods>
+          <include name="setup"/>
+          <include name="tearup"/>
+          <include name="submitFormwithvalidInput"/>
+        </methods>
+      </class> <!-- com.Edge196.TestScript.TC03_ContactUsSubmit_ValidInput -->
+      <class name="com.Edge196.TestScript.TC04_InvestNow">
+        <methods>
+          <include name="doLoginWithInvalidCredential"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Edge196.TestScript.TC04_InvestNow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [EDGE196Suite] -->
